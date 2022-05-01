@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Github Issues</string>
+    <string name="issues_fragment_title">ISSUES FRAGMENT</string>
+    <string name="more">...</string>
+    <string name="updated_at">Update at : </string>
+
+</resources>
