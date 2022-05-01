@@ -1,7 +1,6 @@
 # Github-API-2
 
-# An Android sample for calling Github API to fech Issues for a Github repo and
-# show comments for those issues
+# An Android sample for calling Github API to fech Issues for a Github repo and show comments for those issues
 
 This project consists of one Activity and two fragments.
 1) The first fragment shows the list of Issues for a repo with name and picture of the
