@@ -17,8 +17,7 @@ Structure
 
 Google Drive Link for APK
 =========
-https://drive.google.com/drive/folders/1O41TP2OWqSokemShxFOfE8OcrdgWzTg5?usp=sharing
-
+https://drive.google.com/file/d/1Ca5akNDF11LqDDsyCt6RROXgA8k9MFFl/view?usp=sharing
 Google Drive Link for Recording
 =========
 https://drive.google.com/drive/folders/12aS9tBxmUgwRNsJaCM_zMuvt4HusW5QX?usp=sharing
