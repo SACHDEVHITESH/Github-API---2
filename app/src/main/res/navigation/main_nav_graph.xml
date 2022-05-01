@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
-            android:id="@+id/main_nav_graph"
-            app:startDestination="@id/issuesFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/issuesFragment">
 
-    <fragment android:id="@+id/issuesFragment"
-              android:name="com.example.githubapiissues.presentation.view.IssuesFragment"
-              android:label="@string/issues_fragment_title"
-              tools:layout="@layout/issues_fragment">
+    <fragment
+        android:id="@+id/issuesFragment"
+        android:name="com.example.githubapiissues.presentation.view.IssuesFragment"
+        android:label="@string/issues_fragment_title"
+        tools:layout="@layout/issues_fragment">
+
+        <action
+            android:id="@+id/action_issuesFragment_to_commentsFragment"
+            app:destination="@id/commentsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/commentsFragment"
+        android:name="com.example.githubapiissues.presentation.view.CommentsFragment"
+        android:label="@string/issues_fragment_title"
+        tools:layout="@layout/comments_fragment">
+
+        <argument
+            android:name="number"
+            android:defaultValue=""
+            app:argType="string" />
+
     </fragment>
 
 </navigation>
