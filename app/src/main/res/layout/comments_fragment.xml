@@ -10,8 +10,8 @@
         <import type="android.text.TextUtils" />
 
         <variable
-            name="issuesViewModel"
-            type="com.example.githubapiissues.presentation.viewmodel.IssuesViewModel" />
+            name="commentsViewModel"
+            type="com.example.githubapiissues.presentation.viewmodel.CommentsViewModel" />
     </data>
 
 
@@ -23,7 +23,7 @@
         android:orientation="vertical">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/issuesRecyclerView"
+            android:id="@+id/commentsRecyclerView"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginTop="16dp"
@@ -45,12 +45,12 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/noIssues"
+            android:id="@+id/noComments"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:visibility="gone"
-            android:text="@string/no_issues"
+            android:text="@string/no_comments"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

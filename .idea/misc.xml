@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android/Projects/AndroidProjects/Github-API---2/app/src/main/res/layout/activity_main.xml" value="0.1431159420289855" />
+        <entry key="..\:/Android/Projects/AndroidProjects/Github-API---2/app/src/main/res/layout/comments_fragment.xml" value="0.1431159420289855" />
+        <entry key="..\:/Android/Projects/AndroidProjects/Github-API---2/app/src/main/res/layout/fragment_comments.xml" value="0.1431159420289855" />
         <entry key="..\:/Android/Projects/AndroidProjects/Github-API---2/app/src/main/res/layout/issues_fragment.xml" value="0.1431159420289855" />
         <entry key="..\:/Android/Projects/AndroidProjects/Github-API---2/app/src/main/res/layout/list_github_closed_pr.xml" value="0.1431159420289855" />
         <entry key="..\:/Android/Projects/AndroidProjects/Github-API---2/app/src/main/res/layout/list_github_issues.xml" value="0.21568627450980393" />
